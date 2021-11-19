@@ -38,13 +38,13 @@ Pushes the commits on your current branch to the specified branch on origin (whi
 
 
 ## Bread and Butter Git Flow
-1.) git checkout master
-2.) git pull origin master
-3.) git checkout -b [ your local branch name ]
-4.) make your changes, edit your files, make sure your local hot server reflects your changes as desired
-5.) git add .
-6.) git status
-7.) git commit -m "*insert commit message here*"
-8.) git push origin [ your remote branch name (can be the same name as local)]
-9.) ask the mentors to make a pull request for your branch into master
-10.) see it on the big screen! good job!
+1.) git checkout master  
+2.) git pull origin master  
+3.) git checkout -b [ your local branch name ]  
+4.) make your changes, edit your files, make sure your local hot server reflects your changes as desired  
+5.) git add .  
+6.) git status  
+7.) git commit -m "*insert commit message here*"  
+8.) git push origin [ your remote branch name (can be the same name as local)]  
+9.) ask the mentors to make a pull request for your branch into master  
+10.) see it on the big screen! good job!  
