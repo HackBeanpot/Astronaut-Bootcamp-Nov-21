@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# HackBeanpot's Astronaut Bootcamp
+Hi!
+Thanks for joining HackBeanpot's Astronaut Bootcamp. This mini hackathon/bootcamp is designed to give beginners a jumpstart making web dev projects and a little taste of what hackathons are.  
+Our main hackathon includes mentors/workshops/guest speakers/activities/food and so much more! Please consider applying to HackBeanpot 2022 at apply.hackbeanpot.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed at: https://astronaut-bootcamp-nov20.herokuapp.com/
 
-## Available Scripts
+## Useful Commands
+- npm install
+This command installs all the specified dependency in package.json. Package.json is a file that contains data about the project. A dependency is an external library that we've included in the project. The package.json file describes what dependencies are needed and automatically keeps track of new ones when you install them.  
 
-In the project directory, you can run:
+- npm start
+This starts a "hot" server on your computer. A server is machine/process that serves some file/content (in our case, it's serving our React app!). A server is hot when it's listening for file changes in your repository. When a file changes, it will reload and serve a new version of the content. This is super helpful for development, you should make edits with your code, then refresh your browser to see the new changes immediately!  
 
-### `npm start`
+- git clone  
+Takes a remote repository (on GitHub, BitBucket etc.) and makes a copy on your computer. This way everyone has their own clone of their repository that they can work with.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- git add  
+Adds files to be committed in your Git working tree, puts the files in a middle state: 'staging'.  
+Git add [ file name ]  
+Git add .  
+Note: "Git add ." adds all files you've edited to staging, very convenient and common to use, just be careful you've made changes only to the files you wanted to!  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- git commit  
+Commit the staged files to your Git working tree. Like bookmarking your code!  
 
-### `npm test`
+- git branch  
+View all current branches in your local repository.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- git checkout  
+Switch to a new branch. "Git checkout [ branch name ]
 
-### `npm run build`
+- git status
+Check what's been staged, what's been edited/deleted/created
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- git push origin [ your remote branch name]  
+Pushes the commits on your current branch to the specified branch on origin (which is a nickname to our remote repository on GitHub).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Bread and Butter Git Flow
+1.) git checkout master
+2.) git pull origin master
+3.) git checkout -b [ your local branch name ]
+4.) make your changes, edit your files, make sure your local hot server reflects your changes as desired
+5.) git add .
+6.) git status
+7.) git commit -m "*insert commit message here*"
+8.) git push origin [ your remote branch name (can be the same name as local)]
+9.) ask the mentors to make a pull request for your branch into master
+10.) see it on the big screen! good job!
