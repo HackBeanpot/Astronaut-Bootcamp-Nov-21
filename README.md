@@ -4,6 +4,8 @@ Thanks for joining HackBeanpot's Astronaut Bootcamp. This mini hackathon/bootcam
 Our main hackathon includes mentors/workshops/guest speakers/activities/food and so much more! Please consider applying to HackBeanpot 2022 at apply.hackbeanpot.com
 
 Deployed at: https://astronaut-bootcamp-nov20.herokuapp.com/
+Check out our Figma designs: https://www.figma.com/file/8Fy2sPhR87DeDGjjOmEF56/Astronaut-Bootcamp?node-id=0%3A1
+Get your tickets here: https://trello.com/invite/b/1ApotH9G/fdf27cdb7a35cd8873ba840877e24e22/hbp-minihacks-nov-20
 
 ## Useful Commands
 - npm install
@@ -37,6 +39,12 @@ Check what's been staged, what's been edited/deleted/created
 Pushes the commits on your current branch to the specified branch on origin (which is a nickname to our remote repository on GitHub).
 
 
+## External Library Documentation  
+Material UI Library Docs: https://mui.com/
+React Router Docs: https://reactrouter.com/docs/en/v6  
+React Docs: https://reactjs.org/docs/getting-started.html  
+
+
 ## Bread and Butter Git Flow
 1.) git checkout master  
 2.) git pull origin master  
@@ -46,5 +54,14 @@ Pushes the commits on your current branch to the specified branch on origin (whi
 6.) git status  
 7.) git commit -m "*insert commit message here*"  
 8.) git push origin [ your remote branch name (can be the same name as local)]  
-9.) ask the mentors to make a pull request for your branch into master  
-10.) see it on the big screen! good job!  
+9.) git checkout master 
+10.) git pull origin master
+11.) git checkout [ your local branch name ]
+12.) git merge master
+13.) git push origin [ your remote branch name (can be the same name as local)]  
+14.) ask the mentors to make a pull request for your branch into master  
+15.) see it on the big screen! good job!  
+
+
+## Repo Structure
+Pages of the app are under the src/pages folder. Each subfolder within src/pages represents a page. Index.js is the naming convention as the default file for the folder. Pages are composed of components. For simplicity sake, all components will be under a general use src/components folder. Usually, components will be placed in specific page folders but if they're used in multiple pages they'll be put in a general use folder. 
