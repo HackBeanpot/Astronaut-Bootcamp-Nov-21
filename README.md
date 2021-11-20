@@ -3,9 +3,9 @@ Hi!
 Thanks for joining HackBeanpot's Astronaut Bootcamp. This mini hackathon/bootcamp is designed to give beginners a jumpstart making web dev projects and a little taste of what hackathons are.  
 Our main hackathon includes mentors/workshops/guest speakers/activities/food and so much more! Please consider applying to HackBeanpot 2022 at apply.hackbeanpot.com
 
-Deployed at: https://astronaut-bootcamp-nov20.herokuapp.com/
-Check out our Figma designs: https://www.figma.com/file/8Fy2sPhR87DeDGjjOmEF56/Astronaut-Bootcamp?node-id=0%3A1
-Get your tickets here: https://trello.com/invite/b/1ApotH9G/fdf27cdb7a35cd8873ba840877e24e22/hbp-minihacks-nov-20
+Deployed at: https://astronaut-bootcamp-nov20.herokuapp.com/  
+Check out our Figma designs: https://www.figma.com/file/8Fy2sPhR87DeDGjjOmEF56/Astronaut-Bootcamp?node-id=0%3A1  
+Get your tickets here: https://trello.com/invite/b/1ApotH9G/fdf27cdb7a35cd8873ba840877e24e22/hbp-minihacks-nov-20  
 
 ## Useful Commands
 - npm install
