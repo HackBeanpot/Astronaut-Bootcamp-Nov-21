@@ -57,7 +57,7 @@ React Docs: https://reactjs.org/docs/getting-started.html
 6.) git status  
 7.) git commit -m "*insert commit message here*"  
 8.) git push origin [ your remote branch name (can be the same name as local)]  
-9.) git checkout master 
+9.) git checkout master
 10.) git pull origin master
 11.) git checkout [ your local branch name ]
 12.) git merge master
@@ -67,7 +67,8 @@ React Docs: https://reactjs.org/docs/getting-started.html
 
 
 ## Repo Structure
-Pages of the app are under the src/pages folder. Each subfolder within src/pages represents a page. Index.js is the naming convention as the default file for the folder. Pages are composed of components. For simplicity sake, all components will be under a general use src/components folder. Usually, components will be placed in specific page folders but if they're used in multiple pages they'll be put in a general use folder. 
+Pages of the app are under the src/pages folder. Each subfolder within src/pages represents a page. Index.js is the naming convention as the default file for the folder. Pages are composed of components. For simplicity sake, all components will be under a general use src/components folder. Usually, components will be placed in specific page folders but if they're used in multiple pages they'll be put in a general use folder.
 
 ## Hackers In Attendance
+Jonathan Chen
 NEW INFORMATION PULL ME PLEASE
