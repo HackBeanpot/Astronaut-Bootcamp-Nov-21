@@ -70,3 +70,4 @@ React Docs: https://reactjs.org/docs/getting-started.html
 Pages of the app are under the src/pages folder. Each subfolder within src/pages represents a page. Index.js is the naming convention as the default file for the folder. Pages are composed of components. For simplicity sake, all components will be under a general use src/components folder. Usually, components will be placed in specific page folders but if they're used in multiple pages they'll be put in a general use folder. 
 
 ## Hackers In Attendance
+David Yan
