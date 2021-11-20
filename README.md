@@ -6,6 +6,7 @@ Our main hackathon includes mentors/workshops/guest speakers/activities/food and
 Deployed at: https://astronaut-bootcamp-nov20.herokuapp.com/  
 Check out our Figma designs: https://www.figma.com/file/8Fy2sPhR87DeDGjjOmEF56/Astronaut-Bootcamp?node-id=0%3A1  
 Get your tickets here: https://trello.com/invite/b/1ApotH9G/fdf27cdb7a35cd8873ba840877e24e22/hbp-minihacks-nov-20  
+NASA API Key: ?api_key=PhbpyEpnhqFuh0NrNiIuXOgXx1YrTrNBCvTDQB2z  
 
 ## Useful Commands
 - npm install
