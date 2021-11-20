@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     borderStyle: "solid",
     borderWidth: 1,
     borderColor: "white",
+    padding: 0,
   },
 });
 
@@ -16,16 +17,16 @@ function ExamplePage(props) {
     <div>
       <Grid container spacing={2}>
         <Grid item xs={8} className={classes.cell}>
-          test
+          <div>test</div>
         </Grid>
         <Grid item xs={4} className={classes.cell}>
-          component
+          <div>component</div>
         </Grid>
         <Grid item xs={4} className={classes.cell}>
-          spacing
+          <div>spacing</div>
         </Grid>
         <Grid item xs={8} className={classes.cell}>
-          responsive
+          <div>responsive</div>
         </Grid>
       </Grid>
     </div>

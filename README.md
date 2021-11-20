@@ -39,7 +39,8 @@ Check what's been staged, what's been edited/deleted/created
 Pushes the commits on your current branch to the specified branch on origin (which is a nickname to our remote repository on GitHub).
 
 
-## External Library Documentation  
+## Documentation  
+JavaScript Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript  
 Material UI Library Docs: https://mui.com/  
 React Router Docs: https://reactrouter.com/docs/en/v6  
 React Docs: https://reactjs.org/docs/getting-started.html  
@@ -65,3 +66,5 @@ React Docs: https://reactjs.org/docs/getting-started.html
 
 ## Repo Structure
 Pages of the app are under the src/pages folder. Each subfolder within src/pages represents a page. Index.js is the naming convention as the default file for the folder. Pages are composed of components. For simplicity sake, all components will be under a general use src/components folder. Usually, components will be placed in specific page folders but if they're used in multiple pages they'll be put in a general use folder. 
+
+## Hackers In Attendance
