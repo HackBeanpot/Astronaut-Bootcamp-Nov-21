@@ -40,7 +40,7 @@ Pushes the commits on your current branch to the specified branch on origin (whi
 
 
 ## External Library Documentation  
-Material UI Library Docs: https://mui.com/
+Material UI Library Docs: https://mui.com/  
 React Router Docs: https://reactrouter.com/docs/en/v6  
 React Docs: https://reactjs.org/docs/getting-started.html  
 
