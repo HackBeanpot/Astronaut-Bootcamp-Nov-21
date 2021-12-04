@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Button from '@mui/material/Button';
+
 
 function getData() {
   fetch("https://eonet.gsfc.nasa.gov/api/v2.1/events")
@@ -8,6 +10,7 @@ function getData() {
      return data.title;
   })
 }
+
 function HomePage() {
   const [eventData, setEventData] = useState()
   useEffect(() => {
@@ -18,7 +21,7 @@ function HomePage() {
      setEventData(data.title);
   });
 });
-  return <div>Hello World {eventData}</div>;
+  return <Button variant="text"> Hello World {eventData}</Button>;
 }
 
 export default HomePage;
