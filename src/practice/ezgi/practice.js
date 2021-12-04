@@ -5,7 +5,6 @@ function Welcome(props) {
 }
 
 // props = {name: "Britney"}
-
 // useState() -> returns state and function to update state
 function listOfEvents(props) {
 

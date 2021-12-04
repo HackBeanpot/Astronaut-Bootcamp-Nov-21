@@ -6,13 +6,26 @@ import IconButton from "@mui/material/IconButton";
 import { makeStyles } from "@mui/styles";
 import HBPLogo from "./logo";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 const useStyles = makeStyles({
   header: {
     backgroundColor: "rgb(50,50,80)",
-    height:"10vh"
+    height: "10vh",
   },
+  button: {
+    margin: 10,
+  }
 });
+
+function MyButton(props) {
+  const classes = useStyles();
+  return (
+    <Link to={props.link}>
+      <Button variant="outlined" className={classes.button}>{props.name}</Button>
+    </Link>
+  );
+}
 
 function Header() {
   const classes = useStyles();
@@ -33,6 +46,10 @@ function Header() {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           MiniHacks: Astronaut Bootcamp
         </Typography>
+        <MyButton link="/" name="Home" > </MyButton>
+        <MyButton link="/news" name="News"> </MyButton>
+        <MyButton link="/explore" name="Explore"> </MyButton>
+        <MyButton link="/risk" name="Risk"> </MyButton>
       </Toolbar>
     </AppBar>
   );

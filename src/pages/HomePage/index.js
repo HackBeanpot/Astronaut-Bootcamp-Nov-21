@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
+import Button from '@mui/material/Button';
 
 function getData(){
 }
-
+// Hooks: functions provided by react
 function HomePage() {
   const [eventData, setEventData] = useState()
   useEffect(() => {
@@ -14,7 +15,7 @@ function HomePage() {
       setEventData(data.link)
     });
   });
-  return <div>The title is: {eventData} </div>;
+  return (<Button>The title is: {eventData} </Button>);
 }
 
 export default HomePage;
