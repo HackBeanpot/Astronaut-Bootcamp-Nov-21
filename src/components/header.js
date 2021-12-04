@@ -6,6 +6,8 @@ import IconButton from "@mui/material/IconButton";
 import { makeStyles } from "@mui/styles";
 import HBPLogo from "./logo";
 import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
+import { getThemeProps } from "@mui/system";
 
 const useStyles = makeStyles({
   header: {
@@ -13,6 +15,14 @@ const useStyles = makeStyles({
     height:"10vh"
   },
 });
+
+function MyButton(props){
+  return (
+  <Link to= {props.link}>
+    <Button variant="outlined"> {props.name}</Button>
+  </Link>
+  );
+}
 
 function Header() {
   const classes = useStyles();
@@ -33,6 +43,10 @@ function Header() {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           MiniHacks: Astronaut Bootcamp
         </Typography>
+        <MyButton link="/" name="Home"></MyButton>
+        <MyButton link="/news" name="News"></MyButton>
+        <MyButton link="/explore" name="Explore"></MyButton>
+        <MyButton link="/risk" name="Risk"></MyButton>
       </Toolbar>
     </AppBar>
   );
