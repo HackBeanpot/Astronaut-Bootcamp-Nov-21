@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./resources/logo.png";
+import Logo from "../resources/logo.png";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
